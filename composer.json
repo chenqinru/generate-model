@@ -13,5 +13,10 @@
             "email": "418640958@qq.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "EasyTask\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
