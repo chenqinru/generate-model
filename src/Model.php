@@ -4,7 +4,6 @@ declare (strict_types=1);
 
 namespace Generate;
 
-use app\util\Progress;
 use ReflectionClass;
 use ReflectionMethod;
 use ReflectionNamedType;
@@ -157,10 +156,7 @@ class Model extends Command
         if (!$this->models) {
             $this->error('model undefined');
         }
-        // $progress = new Progress($output);
-        // $progress->setAdvanceMax(count($this->models));
         foreach ($this->models as $class => $value) {
-            // $progress->advance("Loading model {$class}");
             $this->output->info("Loading model {$class}");
             if (!class_exists($class)) {
                 $this->output->warning("{$class} is not exists continue");

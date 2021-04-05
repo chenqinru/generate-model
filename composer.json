@@ -17,6 +17,5 @@
         "psr-4": {
             "Generate\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
