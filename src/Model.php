@@ -2,7 +2,7 @@
 
 declare (strict_types=1);
 
-namespace app\command;
+namespace Generate;
 
 use app\util\Progress;
 use ReflectionClass;

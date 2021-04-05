@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=7.3",
-        "topthink/framework": "^6.0"
+        "topthink/framework": "^6.0.0"
     },
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "EasyTask\\": "src/"
+            "Generate\\": "src/"
         }
     },
     "minimum-stability": "dev"
