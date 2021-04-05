@@ -1,0 +1,17 @@
+{
+    "name": "chenqinru/generate-model",
+    "description": "generate model schema and property",
+    "type": "library",
+    "require": {
+        "php": ">=7.3",
+        "topthink/framework": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenqinru",
+            "email": "418640958@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
