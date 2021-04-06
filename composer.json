@@ -18,6 +18,9 @@
             "email": "418640958@qq.com"
         }
     ],
+    "require-dev": {
+        "phpunit/phpunit": "^7|^8|^9.5"
+    },
     "autoload": {
         "psr-4": {
             "Generate\\": "src/"
