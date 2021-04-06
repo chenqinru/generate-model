@@ -13,8 +13,9 @@ use PHPUnit\Framework\TestCase;
  */
 class GenerateModelTest extends TestCase
 {
-    public function test()
+    public function testCommand(): void
     {
-        print_r(1231231);
+        var_dump('1');
+        // self::assertTrue(true, 'This should already work.');
     }
 }
