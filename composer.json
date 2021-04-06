@@ -2,6 +2,10 @@
     "name": "chenqinru/generate-model",
     "description": "generate model schema and property",
     "type": "library",
+    "keywords": [
+        "generate",
+        "model"
+    ],
     "require": {
         "php": ">=7.3",
         "topthink/framework": "^6.0.0"
