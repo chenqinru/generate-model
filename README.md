@@ -1,4 +1,4 @@
-# generate-model 
+# generate-model
 generate model schema and property
 
 ## 安装
