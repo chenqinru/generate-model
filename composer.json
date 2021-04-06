@@ -8,7 +8,8 @@
     ],
     "require": {
         "php": ">=7.3",
-        "topthink/framework": "^6.0.0"
+        "topthink/framework": "^6.0.0",
+        "ext-mbstring": "*"
     },
     "license": "MIT",
     "authors": [
