@@ -2,28 +2,33 @@
     "name": "chenqinru/generate-model",
     "description": "generate model schema and property",
     "type": "library",
+    "license": "MIT",
     "keywords": [
         "generate",
         "model"
     ],
-    "require": {
-        "php": ">=7.3",
-        "topthink/framework": "^6.0.0",
-        "ext-mbstring": "*"
-    },
-    "license": "MIT",
     "authors": [
         {
             "name": "chenqinru",
             "email": "418640958@qq.com"
         }
     ],
+    "require": {
+        "php": ">=7.3",
+        "topthink/framework": "^6.0.0",
+        "ext-mbstring": "*"
+    },
     "require-dev": {
         "phpunit/phpunit": "^7|^8|^9.5"
     },
     "autoload": {
         "psr-4": {
             "Generate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests"
         }
     }
 }
